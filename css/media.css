@@ -393,15 +393,27 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 .logo-descr {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 15px;
 }
+.language-block__input::after {
+	right: 6px;
+}
+.language-block__input {
+    height: 52px;
+    width: 77px;
+    padding-left: 10px;
+    }
+    .dropdown-list li a {
+    	padding-left: 10px;
+    	padding-right: 10px;
+    }
 .logo {
     font-size: 19px;
     line-height: 22px;
     }
     .language-block {
-    	display: none;
+    	margin-right: 5px;
     }
     .header {
     padding-top: 15px;
@@ -552,7 +564,11 @@
     right: 5px;
     }
 }
-
+@media only screen and (max-width : 379px) {
+.language-block {
+	display: none;
+}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
