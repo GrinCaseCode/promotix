@@ -877,7 +877,7 @@ color: #E95313;
 }
 
 .container {
-	position: relative;
+	position: relative; 
 }
 .dots {
 	position: absolute;
