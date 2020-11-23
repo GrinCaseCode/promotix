@@ -563,6 +563,11 @@
     top: 19px;
     right: 5px;
     }
+    .slider-billbord .title-big,
+    .slider-billbord .descr-big {
+    	padding-left: 15px;
+    	padding-right: 15px;
+    }
 }
 @media only screen and (max-width : 379px) {
 .language-block {
