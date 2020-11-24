@@ -568,6 +568,11 @@
     	padding-left: 15px;
     	padding-right: 15px;
     }
+
+    .btn-main {
+    padding-left: 56px;
+    padding-right: 13px;
+}
 }
 @media only screen and (max-width : 379px) {
 .language-block {

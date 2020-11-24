@@ -24,7 +24,7 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: 'Poppins';
+	font-family: 'Proxima Nova';
 	color: #0A0722;
 	font-size: 16px;
 	overflow-x: hidden;
@@ -76,7 +76,7 @@ p {
 .logo {
 	font-size: 25px;
 	line-height: 37px;
-	font-weight: 700;
+	font-weight: 800;
 	color: #F55B19;
 	display: inline-block;
 }
@@ -181,12 +181,12 @@ p {
 	display: inline-flex;
 	align-items: center;
 	background: #F55B19;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 15px;
 	line-height: 22px;
 	color: #FFFFFF;
 	border-radius: 7px;
-	font-family: 'Poppins';
+	font-family: 'Proxima Nova';
 	position: relative;
 	overflow: hidden;
 	border: none;
@@ -229,7 +229,7 @@ p {
 .title-big {
 	font-size: 65px;
 	line-height: 97px;
-	font-weight: 700;
+	font-weight: 800;
 }
 .descr-big {
 	font-size: 30px;
@@ -350,7 +350,7 @@ p {
 .slider__counter {
 	font-size: 19px;
 	line-height: 28px;
-	font-weight: 600;
+	font-weight: 700;
 	display: flex;
 	align-items: center;
 }
@@ -389,7 +389,7 @@ p {
 	left: -30px;
 }
 .title-vertical {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 60px;
 	line-height: 34px;
 	white-space: nowrap;
@@ -437,7 +437,7 @@ p {
 .title-section {
 	font-size: 56px;
 	line-height: 81px;
-	font-weight: 600;
+	font-weight: 700;
 }
 .title-section span {
 	color: #f55b19;
@@ -454,7 +454,7 @@ p {
 	line-height: 42px;
 	padding-left: 40px;
 	color: #B1B0BC;
-	font-weight: 600;
+	font-weight: 700;
 	display: inline-block;
 	position: relative;
 	transition: all 0.3s;
@@ -520,7 +520,7 @@ p {
 }
 .success .title-section strong {
 	color: #f8bb1e;
-	font-weight: 600;
+	font-weight: 700;
 }
 .item-success {
 	margin-top: 60px;
@@ -548,7 +548,7 @@ p {
 .item-success__name {
 	font-size: 24px;
 	line-height: 32px;
-	font-weight: 700;
+	font-weight: 800;
 }
 .item-success p {
 	line-height: 28px;
@@ -574,7 +574,7 @@ p {
 	min-height: 448px;
 	padding-left: 69px;
 	padding-top: 60px;
-	padding-right: 190px;
+	padding-right: 228px;
 	color: #fff;
 	background-image: url(../img/bg_section_left.svg);
 	background-repeat: no-repeat;
@@ -605,7 +605,7 @@ p {
 .item-result__number {
 	font-size: 70px;
 	line-height: 81px;
-	font-weight: 700;
+	font-weight: 800;
 }
 .item-result p {
 	line-height: 21px;
@@ -659,7 +659,7 @@ p {
 	padding: 0 24px;
 	width: 100%;
 	color: #000;
-	font-family: 'Poppins';
+	font-family: 'Proxima Nova';
 	font-size: 15px;
 	line-height: 22px;
 }
@@ -708,7 +708,7 @@ p {
 	color: #f8bb1e;
 }
 .video-section .title-section {
-	max-width: 1005px;
+	max-width: 927px;
 	margin-bottom: 20px;
 }
 .video-block {
@@ -871,7 +871,7 @@ line-height: 21px;
 .section-content__text {
 	font-size: 100px;
 line-height: 210px;
-font-weight: 700;
+font-weight: 800;
 left: 65px;
 bottom: 14px;
 position: absolute;
@@ -969,11 +969,19 @@ color: #E95313;
 .modal-wrap__title {
 font-size: 35px;
 line-height: 52px;
-font-weight: 600;
+font-weight: 700;
 }
 .modal-wrap__descr {
 font-size: 20px;
 line-height: 30px;
 margin-bottom: 25px;
 font-weight: 300;
+}
+
+
+.title-section {
+	line-height: 67px;
+}
+.title-vertical {
+	top: 165px;
 }
