@@ -985,3 +985,6 @@ font-weight: 300;
 .title-vertical {
 	top: 165px;
 }
+.input-name-form {
+	display: none !important;
+}
