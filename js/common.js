@@ -98,7 +98,24 @@ $(document).ready(function() {
       url: "mail.php",
       data: $("#form1").serialize(),
       success: function(response) {
-       alert("Спасибо за заявку!");
+       alert("Thank you for your application!");
+			setTimeout(function() {
+			}, 1000);
+      }
+    })
+    return false;
+  }); 
+});
+
+$(document).ready(function() {
+  $("#form2").submit(function(e) {
+    e.preventDefault();
+    $.ajax({
+      type: "POST",
+      url: "mail.php",
+      data: $("#form2").serialize(),
+      success: function(response) {
+       alert("Thank you for your application!");
 			setTimeout(function() {
 			}, 1000);
       }
