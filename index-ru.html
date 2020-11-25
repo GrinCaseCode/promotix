@@ -403,22 +403,23 @@
 					</div>
 					<div class="section-content__right">
 						<div class="form-contacts">
-							<form>
+							<form id="form2">
+								<input type="text" name="name_form" value="form contact us" class="input-name-form" required="required">
 								<div class="row row_form">
 									<div class="col-md-6">
 										<div class="item-form">
-											<input type="text" placeholder="Ваше имя" required="required">
+											<input type="text" name="name" placeholder="Ваше имя" required="required">
 										</div>
 										<div class="item-form">
-											<input type="emai" placeholder="Ваша компания" required="required">
+											<input type="emai" name="email" placeholder="Ваш email" required="required">
 										</div>
 										<div class="item-form">
-											<input type="text" placeholder="Ваш email" required="required">
+											<input type="text" name="company" placeholder="Ваша компания" required="required">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="item-form">
-											<textarea placeholder="Ваше сообщение"></textarea>
+											<textarea placeholder="Your message"></textarea>
 										</div>
 										<button class="btn-main" type="submit">Отправить</button>
 									</div>
@@ -452,12 +453,13 @@
 			<div class="modal-wrap__title">Связаться с нами</div>
 			<div class="modal-wrap__descr">и мы перезвоним вам через 15 минут</div>
 			<div class="block-form">
-				<form>
+				<form id="form1">
+					<input type="text" name="name_form" value="form callback" class="input-name-form" required="required">
 					<div class="item-form">
-						<input type="text" placeholder="Ваше имя" required="required">
+						<input type="text" name="name" placeholder="Ваше имя" required="required">
 					</div>
 					<div class="item-form">
-						<input type="emai" placeholder="Ваш email" required="required">
+						<input type="emai" name="email" placeholder="Ваш email" required="required">
 					</div>
 					<button class="btn-main" type="submit">Отправить</button>
 				</form>
